@@ -17,8 +17,8 @@ public class Day1Test
     public void Part2()
     {
         var input = File.ReadAllText("day1.txt");
-        var distance = new Day1().GetSimilarityScore(input);
+        var similarityScore = new Day1().GetSimilarityScore(input);
         
-        Console.WriteLine(distance);
+        Console.WriteLine(similarityScore);
     }
 }
